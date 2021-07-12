@@ -38,7 +38,6 @@ use ensogl::display::traits::*;
 use ensogl::display;
 use ensogl_gui_components::file_browser::model::AnyFolderContent;
 use ensogl_gui_components::list_view;
-use ensogl_gui_components::list_view::entry::AnyEntry;
 use ensogl_text as text;
 use ensogl_web::drop;
 use futures::future::LocalBoxFuture;
