@@ -1,13 +1,24 @@
 # Next Release
 
-# Enso 2.0.0-alpha.8 (2021-06-09)
+This update contains major performance improvements and exposes new privacy user
+settings. We will work towards stabilizing it in the next weeks in order to make
+these updates be shipped in a stable release before the end of the year.
 
 <br/>![New Features](/docs/assets/tags/new_features.svg)
 
-#### Visual Environment
-
+- [File or Project Open Dialog][xxxx]. <kbd>ctrl/cmd</kbd>+<kbd>o</kbd> will
+  display a new File or Project Open Dialog. Here you can open another project,
+  or pick a file from browser: the file will be inserted as a node to the
+  current graph.
 - [File browser component][1677]. A basic file browser component has been
   implemented, but is not integrated into the user interface yet.
+
+[1640]: https://github.com/enso-org/ide/pull/1664
+[1700]: https://github.com/enso-org/ide/pull/1700
+
+# Enso 2.0.0-alpha.8 (2021-06-09)
+
+<br/>![New Features](/docs/assets/tags/new_features.svg)
 
 #### Enso Compiler
 
@@ -15,8 +26,6 @@
   enhancements and fixes made to the Enso compiler, you can find out more
   details in
   [the engine release notes](https://github.com/enso-org/enso/blob/main/RELEASES.md).
-
-[1640]: https://github.com/enso-org/ide/pull/1664
 
 <br/>
 
